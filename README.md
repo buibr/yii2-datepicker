@@ -1,9 +1,9 @@
-Bootstrap 3 date/time picker widget for Yii2
+Bootstrap 4 date/time picker widget for Yii2
 ============================================
 
 Credits
 -------
-Jonathan Peterson (@Eonasdan) for [Bootstrap 3 Date/Time Picker](https://github.com/Eonasdan/bootstrap-datetimepicker).
+Jonathan Peterson (@Eonasdan) for [Bootstrap 4 Date/Time Picker](https://github.com/Eonasdan/bootstrap-datetimepicker).
 
 Antonio Ramirez (@tonydspaniard) for inspiration by [Bootstrap DatePicker Widget for Yii2](https://github.com/2amigos/yii2-date-picker-widget) and code examples.
 
@@ -14,13 +14,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require "nex/yii2-datepicker" "*"
+php composer.phar require "buibr/yii2-datepicker-bs4" "*"
 ```
 
 or add
 
 ```json
-"nex/yii2-datepicker": "*"
+"buibr/yii2-datepicker-bs4": "*"
 ```
 
 to the `require` section of your application's `composer.json` file.
