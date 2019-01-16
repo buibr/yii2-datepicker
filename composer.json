@@ -1,8 +1,8 @@
 {
-    "name": "nex/yii2-datepicker",
+    "name": "buibr/yii2-datepicker-bs4",
     "type": "yii2-extension",
-    "description": "Bootstrap 3 Date/time picker widget for Yii2",
-    "keywords": ["yii2", "extension", "widget", "datepicker", "datetimepicker", "bootstrap"],
+    "description": "Bootstrap 4 date/time picker widget for Yii2",
+    "keywords": ["yii2", "extension", "widget", "datepicker", "datetimepicker", "bootstra4p"],
     "homepage": "https://github.com/RomeroMsk/yii2-datepicker",
     "license": "BSD-3-Clause",
     "authors": [
@@ -10,17 +10,22 @@
             "name": "Roman Ovchinnikov",
             "email": "nex.software@gmail.com",
             "homepage": "https://github.com/RomeroMsk"
+        },
+        {
+            "name": "Burhan Ibrahimi",
+            "email": "burhan@wflux.pro",
+            "homepage": "http://www.wflux.pro/"
         }
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "yiisoft/yii2-bootstrap": "*",
+        "yiisoft/yii2-bootstrap4": "*",
         "bower-asset/moment": "*",
         "bower-asset/eonasdan-bootstrap-datetimepicker": "4.17.*"
     },
     "autoload": {
         "psr-4": {
-            "nex\\datepicker\\": ""
+            "buibr\\datepicker\\": ""
         }
     }
 }

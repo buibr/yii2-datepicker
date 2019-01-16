@@ -35,7 +35,7 @@ To use widget as date/time picker, set appropriate format, e.g. 'L LT' (as in ex
 
 ```
 <?php
-use nex\datepicker\DatePicker;
+use buibr\datepicker\DatePicker;
 ?>
 
 <?= DatePicker::widget([
@@ -69,7 +69,7 @@ use nex\datepicker\DatePicker;
 
 ```
 <?php
-use nex\datepicker\DatePicker;
+use buibr\datepicker\DatePicker;
 ?>
 <?= DatePicker::widget([
     'name' => 'datepickerTest',

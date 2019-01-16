@@ -4,7 +4,7 @@
  * @link https://github.com/RomeroMsk
  * @version 1.1.0
  */
-namespace nex\datepicker;
+namespace buibr\datepicker;
 
 use yii\web\AssetBundle;
 
@@ -19,8 +19,8 @@ class DatePickerAsset extends AssetBundle
     public $sourcePath = '@bower/eonasdan-bootstrap-datetimepicker';
 
     public $depends = [
-        'yii\bootstrap\BootstrapPluginAsset',
-        'nex\datepicker\MomentAsset',
+        'yii\bootstrap4\BootstrapPluginAsset',
+        'buibr\datepicker\MomentAsset',
     ];
 
     public function init() {

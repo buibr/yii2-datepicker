@@ -4,10 +4,10 @@
  * @link https://github.com/RomeroMsk
  * @version 1.1.0
  */
-namespace nex\datepicker;
+namespace buibr\datepicker;
 
 use Yii;
-use yii\bootstrap\ButtonDropdown;
+use yii\bootstrap4\ButtonDropdown;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use yii\helpers\Json;
